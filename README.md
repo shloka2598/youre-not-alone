@@ -21,13 +21,16 @@ Built for **Hackathons 2025** 🏆
 
 ## 📸 Screenshots (To Be Added After Deploy)
 
-- 🏠 Home Page  
+- 🏠 Home Page
+  
   ![Home Screenshot](./screenshots/home.png)
 
-- 📈 Trending Posts  
+- 📈 Trending Posts
+  
   ![Trending Screenshot](./screenshots/trending.png)
 
-- 🚩 Admin Panel  
+- 🚩 Admin Panel
+  
   ![Admin Screenshot](./screenshots/admin.png)
 
 ---
