@@ -27,7 +27,6 @@ export default function PostItem({
         </button>
       </div>
 
-      {/* Comments */}
       <div className="mt-2 space-y-2">
         {post.comments.map((comment) => (
           <p key={comment.id} className="text-sm bg-gray-100 p-2 rounded">

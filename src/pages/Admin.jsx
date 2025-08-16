@@ -1,5 +1,4 @@
-// src/pages/Admin.jsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import AdminPanel from "../components/share/AdminPanel";
 import { useNavigate } from "react-router-dom";
 
@@ -17,7 +16,7 @@ export default function Admin() {
   }, []);
 
   const handleLogin = () => {
-    const correctPassword = "demopasswordfornow"; // change this
+    const correctPassword = "demopasswordfornow"; // can be changed
     if (passwordInput === correctPassword) {
       localStorage.setItem("adminAuth", "true");
       setIsAuth(true);
@@ -36,7 +35,7 @@ export default function Admin() {
           value={passwordInput}
           onChange={(e) => {
             setPasswordInput(e.target.value);
-            if (error) setError(""); // clear error on typing
+            if (error) setError("");
           }}
           className={`border p-2 w-full rounded mb-1 ${
             error ? "border-red-500" : ""

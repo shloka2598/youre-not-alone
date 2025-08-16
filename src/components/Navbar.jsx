@@ -10,7 +10,6 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-900 text-white fixed w-full shadow-lg z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-        {/* Logo */}
         <Link to="/" className="text-2xl font-bold tracking-wide">
           You're Not Alone
         </Link>

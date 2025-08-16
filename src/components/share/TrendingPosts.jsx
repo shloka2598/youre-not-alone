@@ -1,7 +1,6 @@
 export default function TrendingPosts({ posts }) {
-  // Filter and sort top posts
   const topPosts = posts
-    .filter((p) => p.upvotes >= 10 && !p.reported) // Only non-reported, high-upvote posts
+    .filter((p) => p.upvotes >= 10 && !p.reported)
     .sort((a, b) => b.upvotes - a.upvotes);
 
   return (

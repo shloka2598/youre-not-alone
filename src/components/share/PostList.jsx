@@ -17,7 +17,7 @@ export default function PostList({
       )}
 
       {posts.map((post) => {
-        const isReported = !!post.reported; // <-- use the boolean from Share.jsx
+        const isReported = !!post.reported;
 
         return (
           <div

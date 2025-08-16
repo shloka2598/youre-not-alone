@@ -2,7 +2,6 @@ const Hero = () => {
   return (
     <section className="w-full bg-gradient-to-b from-indigo-500 to-purple-600 text-white py-24 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center sm:justify-between">
-        {/* Text Content */}
         <div className="sm:w-1/2 mb-10 sm:mb-0 text-center sm:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4">
             You’re Not Alone 💙
@@ -19,7 +18,6 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Illustration */}
         <div className="sm:w-1/2 flex justify-center">
           <img
             src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
