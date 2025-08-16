@@ -52,7 +52,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 You’re Not Alone (Not Deployed Yet)
+👉 You’re Not Alone (https://youre-not-alone.vercel.app)
 
 ---
 
